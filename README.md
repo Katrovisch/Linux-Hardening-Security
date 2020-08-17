@@ -112,7 +112,7 @@ rm -f /boot/grub2/user.cfg
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-#### Disable reboot using Ctrl-Alt-Del Keys
+### Disable reboot using Ctrl-Alt-Del Keys
 
 - [x] RHEL8/CentOS8
 - [x] Debian
@@ -190,7 +190,7 @@ Security mechanism to separate running programs from an end of supply to a highl
   - [Namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html)
   - [Seccomp](https://man7.org/linux/man-pages/man2/seccomp.2.html)
 
-#### Lockdown Cronjobs
+### Lockdown Cronjobs
 
 - [x] RHEL8/CentOS8
 - [x] Debian-based
@@ -203,7 +203,7 @@ echo ALL >> /etc/cron.deny
 echo "<user>" >> /etc/cron.allow
 ```
 
-#### HidePID
+### HidePID
 
 - [x] RHEL8/CentOS8
 - [x] Debian-based
